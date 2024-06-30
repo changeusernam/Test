@@ -1,0 +1,13 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+</head>
+<body>
+<canvas id="e3d170abf93e4294b96e27f825f71e7a"></canvas>
+<script>
+var images=['data:image/bmp;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANjSURBVHhe7Z3hkZswFIRdQkpIKddB3EHSwV0H5w6SDpwOXIJL4Kex/YMSKCHZxY84gDAgYSNgd+abmzMyJ62f9CSBuc2USpLky/l83l4ul3ewB0f8nhl/auQgYRmWPZ1OO/DGc9jplq/SsDRNf+GnyyRfMpqKn9tFGspIQeMOgFHkMmBUSjPtz89TjITr9fqJhrzEtBYY5d/xAX61asWvSIyrk7FOVsV4hU/6Bytbq3xMFBFp1Y1H7CKWQV2VjpFDNN0axr2jQjF1176wztNFI8c6mPezVqnZwTZYk14nhj/+eFKvzIxJXtalzbyYE4Uv2dNNXLB5Jc8zcQXmlYxv4orMKxnXRJxwSQmjL5hojLAxsYSpii/BUxyEMZdmzpOvhTRNP8yOYbJxb44rjLHJvcZDvJH7d64Trg505aPZ0k/quk76r5tReE1Tlr5kvbKybYa6TrB60DN3ZpNbljgUfe3kD6NQY183D6MQBRR93eRmV1U4sK0VFC0gCt/Mtrtw4He9oGjlYLbdlGUZ7xhwFRRuqskEL6j7DgRr5G9mn7qvD7y/x+xT9vUkK8zT+OdPMQ4yJbsOim6KcZAza9dB0U2x2QoDlUA8gYF7XvOY001BUQEDj8zAa7ziNhYZDdR1D38KA10HRE9kYCAyMBAZGAgN1DrYn1wGhpFoIh1AMZHWUs6fYinHBbHroOiGGzEcA7Wd7wm3ArWhGsC/C0v4RZl4OLctfQrjIL8A7SokWigSSCm8oHFwIDDwflnTxkFtaw2gcZcWXtQtvT2pdN9STMmuwqJJpfv+LxxUN+7mnn3r4sza8QZRpf1mcyWTTrq/Q6cobIfemE3tsijUyqRJ+9hXF5zWzeZNhj2gQhutFaq39PYRB0u8UQkFHnQmjjZhwqjN1tBny8DE1e7UsO1mg78sK6/yK/9mQbhsPFzT1EZP7ghAz44J4HnmlVqwic83r5SZqIePhWoJUxy24eGXqJ8tfHJcN89xxZJzoWDNmFbWpWdzTQXGHSfpsl2yaIw5wbBuYUuzVwhGclM2JiO5IbCbdKwbKnaRCCJyfsa5hIZs0ZBX3YfIhMbHHDefazB3MRLQuNLM0SITSSGzKdUy/xlBm9hYRgq7GQzYMzvCBE7QG9MiM4kcWfZye371xIZtNn8BBECz45XHq5gAAAAASUVORK5CYII='];function LoadImagesAndRender(){var loadedImages=0;for(var i=0;i<images.length;i++){var source=images[i];images[i]=new Image();images[i].src=source;images[i].onload=function(){loadedImages++;if (loadedImages==images.length){Render();}};}}function Render(){let a=document.getElementById('e3d170abf93e4294b96e27f825f71e7a');let b=a.getContext('2d');a.width=80;a.height=80;b.drawImage(images[0],0,0,80,80,0,0,80,80);}window.addEventListener('onload',LoadImagesAndRender());
+</script>
+</body>
+</html>
